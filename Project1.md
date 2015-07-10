@@ -3,7 +3,7 @@
 
 Within this repository are the 4 R programs for the first project for the Exploratory Data Analysis course from Johns Hopkins University offered through Coursera. The included .png files are generated via the similarly named R programs.
 
-All plots were generated from the [Electric Power Consumption)(https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip) dataset from the UC Irvine Machine Learning Repository. The target dataset used to generate plots is from February 1, 2007 to February 2, 2007.
+All plots were generated from the [Electric Power Consumption](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip) dataset from the UC Irvine Machine Learning Repository. The target dataset used to generate plots is from February 1, 2007 to February 2, 2007.
 
 ### plot1.R
 plot1(dataset_file_location)
