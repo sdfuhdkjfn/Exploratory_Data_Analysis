@@ -3,9 +3,9 @@ globalActivePower <- read.table(infile, header=TRUE,
   stringsAsFactors = FALSE, na.strings="?", sep=";")
 good <- globalActivePower[globalActivePower[1] == '1/2/2007' 
   | globalActivePower[1] == '2/2/2007' ,]
-png("./plot3.png", width=480, height=480, bg="transparent")
+png("./plot3.png", width=480, height=480)
 plot(good$Sub_metering_1, xaxt="n", xlab="", ylab="Energy sub metering", 
-  bg="transparent", type="o", pch=" ", col="black")
+  type="o", pch=" ", col="black")
 lines(good$Sub_metering_2, col="red")
 lines(good$Sub_metering_3, col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
