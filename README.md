@@ -5,7 +5,7 @@ Within this repository are the 4 R programs for the first project for the Explor
 
 All plots were generated from the [Electric Power Consumption](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip) dataset from the UC Irvine Machine Learning Repository. The target dataset used to generate plots is from February 1, 2007 to February 2, 2007.
 
-** NOTE ** While all images in the reference assignment appear to have a white background, they are actually transparent.
+**NOTE** While all images in the reference assignment appear to have a white background, they are actually transparent. [Reference](https://github.com/sdfuhdkjfn/ExData_Plotting1/tree/master/figure)
 
 ### plot1.R
 plot1(dataset_file_location)
